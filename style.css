@@ -47,3 +47,7 @@ tbody tr td p {
   right: 1vw;
   top: 13vh;
 }
+button:hover {
+  cursor: pointer;
+}
+
