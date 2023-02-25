@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: black;
+  color: white;
+  height: 11vh;
+  font-size: 50px;
+}
+#btn {
+  width: 25vw;
+  height: 5vh;
+  margin-top: 3vh;
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+.table tr {
+  justify-content: space-evenly;
+}
+.table th {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.table {
+  width: 100%;
+  margin-top: 3vh;
+  text-align: center;
+}
+.table input,
+button {
+  width: 100%;
+  border: 2px solid black;
+  padding: 3px;
+}
+tbody tr td p {
+  background-color: yellowgreen;
+}
+#al {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 800;
+  position: absolute;
+  color: rgb(0, 153, 153);
+  visibility: hidden;
+  right: 1vw;
+  top: 13vh;
+}
